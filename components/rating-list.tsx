@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image"
-import { Star, ExternalLink } from "./icons"
+import { Star, ExternalLink, Shield, AlertTriangle } from "./icons"
 import type { SportsSite } from "@/types"
 
 interface RatingListProps {
@@ -8,6 +8,7 @@ interface RatingListProps {
 }
 
 export function RatingList({ sites }: RatingListProps) {
+  const formatNumber = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
   const renderStars = (rating: number) => {
     const starElements = []
     const maxStars = 5
@@ -35,13 +36,23 @@ export function RatingList({ sites }: RatingListProps) {
     return starElements
   }
 
-  const DisclaimerBadge = () => (
-    <div className="bg-white border-2 border-gray-300 px-4 py-2 flex items-center gap-2 text-xs rounded shadow-sm">
-      <span className="font-bold text-gray-900">Informativni sadrzaj</span>
-      <span className="text-gray-400">|</span>
-      <span className="text-gray-700 flex items-center gap-1">
-        Detalji <ExternalLink className="w-3 h-3" />
-      </span>
+  const DisclaimerSection = () => (
+    <div className="bg-gray-50 border-t-2 border-gray-200 px-4 py-3">
+      <div className="flex flex-wrap items-center justify-center gap-3 text-xs">
+        <div className="flex items-center gap-1.5 text-gray-700">
+          <AlertTriangle className="w-4 h-4 text-red-600" />
+          <span className="font-semibold">18+</span>
+        </div>
+        <span className="text-gray-400">|</span>
+        <div className="flex items-center gap-1.5 text-gray-700">
+          <Shield className="w-4 h-4 text-green-600" />
+          <span className="font-medium">Odgovorno klađenje</span>
+        </div>
+        <span className="text-gray-400">|</span>
+        <span className="text-gray-600 font-medium">Ličensirano i regulirano</span>
+        <span className="text-gray-400">|</span>
+        <span className="text-gray-500 italic">Igrajte odgovorno</span>
+      </div>
     </div>
   )
 
@@ -81,7 +92,7 @@ export function RatingList({ sites }: RatingListProps) {
                   <div className="grid grid-cols-[280px_1fr_240px_220px] items-center gap-6 p-8">
                     <div className="relative">
                       <div
-                        className={`flex items-center justify-center bg-gray-50 p-6 h-[140px] border-2 transition-all rounded ${
+                        className={`flex items-center justify-center bg-black p-6 h-[140px] border-2 transition-all rounded ${
                           isFirstPlace ? "border-yellow-500" : "border-green-500"
                         }`}
                       >
@@ -124,7 +135,7 @@ export function RatingList({ sites }: RatingListProps) {
                       </div>
                       <div className="flex items-center justify-center gap-1 mb-2">{renderStars(site.rating)}</div>
                       <p className="text-gray-700 text-xs font-medium drop-shadow">
-                        ({site.reviews.toLocaleString()} recenzija)
+                        ({formatNumber(site.reviews)} recenzija)
                       </p>
                     </div>
 
@@ -147,9 +158,7 @@ export function RatingList({ sites }: RatingListProps) {
                       </p>
                     </div>
                   </div>
-                  <div className="px-8 pb-6 flex justify-center">
-                    <DisclaimerBadge />
-                  </div>
+                  <DisclaimerSection />
                 </div>
 
                 {/* Tablet Layout */}
@@ -158,7 +167,7 @@ export function RatingList({ sites }: RatingListProps) {
                     <div className="grid grid-cols-[180px_1fr_180px] gap-4 items-center mb-4">
                       <div className="relative">
                         <div
-                          className={`flex items-center justify-center bg-gray-50 p-4 h-[100px] border-2 transition-all rounded ${
+                          className={`flex items-center justify-center bg-black p-4 h-[100px] border-2 transition-all rounded ${
                             isFirstPlace ? "border-yellow-500" : "border-green-500"
                           }`}
                         >
@@ -197,7 +206,7 @@ export function RatingList({ sites }: RatingListProps) {
                         </div>
                         <div className="flex items-center justify-center gap-1 mb-1">{renderStars(site.rating)}</div>
                         <p className="text-gray-700 font-medium text-[10px] drop-shadow">
-                          ({site.reviews.toLocaleString()} recenzija)
+                          ({formatNumber(site.reviews)} recenzija)
                         </p>
                       </div>
                     </div>
@@ -221,9 +230,7 @@ export function RatingList({ sites }: RatingListProps) {
                       </p>
                     </div>
 
-                    <div className="pt-4 mt-4 border-t-2 border-gray-200 flex justify-center">
-                      <DisclaimerBadge />
-                    </div>
+                    <DisclaimerSection />
                   </div>
                 </div>
 
@@ -270,7 +277,7 @@ export function RatingList({ sites }: RatingListProps) {
                       <div className="flex flex-col items-center justify-center">
                         <div className="flex justify-center gap-0.5 mb-1">{renderStars(site.rating)}</div>
                         <div className="text-gray-700 font-medium text-center text-xs">
-                          ({site.reviews.toLocaleString()})
+                          ({formatNumber(site.reviews)})
                         </div>
                       </div>
 
@@ -285,9 +292,7 @@ export function RatingList({ sites }: RatingListProps) {
                       </div>
                     </div>
 
-                    <div className="pt-3 mt-3 border-t-2 border-gray-200 flex justify-center">
-                      <DisclaimerBadge />
-                    </div>
+                    <DisclaimerSection />
                   </div>
                 </div>
               </a>

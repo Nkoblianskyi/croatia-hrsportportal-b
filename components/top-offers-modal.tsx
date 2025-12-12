@@ -64,7 +64,6 @@ export function TopOffersModal({ sites }: TopOffersModalProps) {
 
           <div className="relative z-10">
             <div className="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full mb-3 shadow-sm">
-              <Gift className="w-5 h-5 text-primary" />
               <span className="text-sm font-bold text-primary uppercase tracking-wide">Ekskluzivna Ponuda</span>
             </div>
 
@@ -75,7 +74,7 @@ export function TopOffersModal({ sites }: TopOffersModalProps) {
 
         <div className="p-6 space-y-5">
           <div className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-xl border-2 border-gray-200">
-            <div className="relative bg-white h-20 w-full max-w-[200px] mx-auto mb-4 p-4 rounded-lg shadow-sm">
+            <div className="relative bg-black h-20 w-full max-w-[200px] mx-auto mb-4 p-4 rounded-lg shadow-sm">
               <Image src={topSite.logo || "/placeholder.svg"} alt={topSite.name} fill className="object-contain" />
             </div>
 

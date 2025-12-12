@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { AdvertiserInfoModal } from "./advertiser-info-modal"
 import { Trophy, Shield, TrendingUp } from "lucide-react"
-
+import Image from "next/image"
 export function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
@@ -40,7 +40,7 @@ export function Hero() {
               <span className="text-sm font-bold text-gray-900">Provjerene Kladionice</span>
             </div>
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border-2 border-white shadow-md">
-              <Shield className="w-5 h-5 text-accent" />
+              <Image src="/flag.png" alt="Shield" width={20} height={20} />
               <span className="text-sm font-bold text-gray-900">100% Sigurno</span>
             </div>
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border-2 border-white shadow-md">
