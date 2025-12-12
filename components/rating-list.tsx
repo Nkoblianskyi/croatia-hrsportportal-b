@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image"
-import { Star, ExternalLink, Shield, AlertTriangle } from "./icons"
+import { Star, ExternalLink } from "./icons"
 import type { SportsSite } from "@/types"
 
 interface RatingListProps {
@@ -40,12 +40,10 @@ export function RatingList({ sites }: RatingListProps) {
     <div className="bg-gray-50 border-t-2 border-gray-200 px-4 py-3">
       <div className="flex flex-wrap items-center justify-center gap-3 text-xs">
         <div className="flex items-center gap-1.5 text-gray-700">
-          <AlertTriangle className="w-4 h-4 text-red-600" />
           <span className="font-semibold">18+</span>
         </div>
         <span className="text-gray-400">|</span>
         <div className="flex items-center gap-1.5 text-gray-700">
-          <Shield className="w-4 h-4 text-green-600" />
           <span className="font-medium">Odgovorno klađenje</span>
         </div>
         <span className="text-gray-400">|</span>
