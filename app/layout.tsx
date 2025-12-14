@@ -16,9 +16,9 @@ const openSans = Open_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "HRSportPortal | Vrhunski Vodič za Sportsko Klađenje u Hrvatskoj",
+  title: "SportPortalHR | Vrhunski Vodič za Sportsko Klađenje u Hrvatskoj",
   description:
-    "HRSportPortal - Vaš pouzdani partner za sportsko klađenje. Detaljne recenzije kladionica, ekskluzivni bonusi i profesionalni savjeti za uspješno klađenje.",
+    "SportPortalHR - Vaš pouzdani partner za sportsko klađenje. Detaljne recenzije kladionica, ekskluzivni bonusi i profesionalni savjeti za uspješno klađenje.",
   verification: {
     google: "verification-code-here",
   },
@@ -75,14 +75,14 @@ keywords: [
   "online casino games",
   "casino bonuses"
 ],
-  authors: [{ name: "HRSportPortal" }],
-  publisher: "hrsportportal.com",
+  authors: [{ name: "SportPortalHR" }],
+  publisher: "sportportalhr.com",
   openGraph: {
-    title: "HRSportPortal | Vrhunski Vodič za Sportsko Klađenje",
+    title: "SportPortalHR | Vrhunski Vodič za Sportsko Klađenje",
     description:
-      "HRSportPortal - Profesionalni portal s detaljnim recenzijama, bonusima i stručnim savjetima za sportsko klađenje u Hrvatskoj.",
-    url: "https://hrsportportal.com",
-    siteName: "HRSportPortal",
+      "SportPortalHR - Profesionalni portal s detaljnim recenzijama, bonusima i stručnim savjetima za sportsko klađenje u Hrvatskoj.",
+    url: "https://sportportalhr.com",
+    siteName: "SportPortalHR",
     locale: "hr_HR",
     type: "website",
     images: [
@@ -90,13 +90,13 @@ keywords: [
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "HRSportPortal",
+        alt: "SportPortalHR",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "HRSportPortal | Vrhunski Vodič za Sportsko Klađenje",
+    title: "SportPortalHR | Vrhunski Vodič za Sportsko Klađenje",
     description: "Profesionalni portal s detaljnim recenzijama i stručnim savjetima za klađenje",
     images: ["/og-image.png"],
   },
@@ -112,7 +112,7 @@ keywords: [
     },
   },
   alternates: {
-    canonical: "https://hrsportportal.com",
+    canonical: "https://sportportalhr.com",
   },
   other: {
     rating: "general",

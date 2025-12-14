@@ -143,7 +143,7 @@ export function SportHrvatskaAbout() {
 
           <div className="mt-12 pt-8 border-t-2 border-primary/30 bg-gradient-to-br from-accent/10 to-primary/10 p-6 rounded-xl">
             <p className="text-sm text-foreground/90 leading-relaxed font-medium">
-              <strong className="text-foreground">HRSportPortal</strong> promovira isključivo odgovorno klađenje,
+              <strong className="text-foreground">SportPortalHR</strong> promovira isključivo odgovorno klađenje,
               sigurnost korisnika i edukaciju. Ako vi ili netko vama blizak ima poteškoća s klađenjem, odmah potražite
               stručnu pomoć kod organizacija koje se bave ovom problematikom.
             </p>

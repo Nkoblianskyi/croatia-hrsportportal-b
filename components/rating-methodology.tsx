@@ -19,7 +19,7 @@ export function RatingMethodology() {
         <article className="prose prose-lg max-w-none">
           <div className="mb-10 bg-card p-8 rounded-xl border-2 border-border shadow-sm">
             <p className="text-base text-foreground/80 leading-relaxed">
-              HRSportPortal je nezavisni portal osnovan s ciljem pružanja objektivnih recenzija, detaljnih usporedbi i
+              SportPortalHR je nezavisni portal osnovan s ciljem pružanja objektivnih recenzija, detaljnih usporedbi i
               stručnih savjeta o platformama za sportsko klađenje u Hrvatskoj. Naš tim iskusnih stručnjaka posvećen je
               transparentnosti, točnosti i zaštiti interesa korisnika kroz rigorozan proces testiranja.
             </p>
@@ -118,7 +118,7 @@ export function RatingMethodology() {
           <div className="mt-10 p-8 bg-gradient-to-br from-primary via-primary/95 to-accent text-primary-foreground rounded-xl shadow-lg">
             <h3 className="text-2xl font-bold mb-4 font-display">Naša Obveza Prema Vama</h3>
             <p className="text-primary-foreground/95 leading-relaxed">
-              HRSportPortal nije kladionica - mi smo nezavisni portal koji vam pomaže pronaći najbolje platforme za
+              SportPortalHR nije kladionica - mi smo nezavisni portal koji vam pomaže pronaći najbolje platforme za
               sportsko klađenje u Hrvatskoj. Naša potpuna uređnička neovisnost jamči objektivne i pouzdane informacije
               koje vam omogućuju sigurno, informirano i uspješno klađenje.
             </p>

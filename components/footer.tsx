@@ -8,11 +8,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12 mb-12">
           <div>
             <h3 className="text-2xl font-display font-bold mb-4">
-              HR<span className="text-primary">Sport</span>
+              <span className="text-primary">Sport</span>
               <span className="text-accent">Portal</span>
+              HR
             </h3>
             <p className="text-sm text-background/80 leading-relaxed">
-              HRSportPortal je vodеći hrvatski portal za sportsko klađenje. Pružamo vam detaljne recenzije, ekskluzivne
+              SportPortalHR je vodеći hrvatski portal za sportsko klađenje. Pružamo vam detaljne recenzije, ekskluzivne
               bonuse i stručne savjete za uspješno klađenje na sport.
             </p>
           </div>
@@ -27,7 +28,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/about" className="text-sm text-background/80 hover:text-accent transition-colors">
-                  O HRSportPortalu
+                  O SportPortaluHR
                 </Link>
               </li>
               <li>
@@ -45,7 +46,7 @@ export function Footer() {
 
           <div>
             <h4 className="text-sm font-bold mb-4 text-background uppercase tracking-wider">Kontakt</h4>
-            <p className="text-sm text-background/80 leading-relaxed mb-3">Email: info@hrsportportal.com</p>
+            <p className="text-sm text-background/80 leading-relaxed mb-3">Email: info@sportportalhr.com</p>
             <p className="text-sm text-background/80 leading-relaxed">
               Za sve upite i sugestije, slobodno nas kontaktirajte.
             </p>
@@ -54,7 +55,7 @@ export function Footer() {
 
         <div className="mb-10 p-6 bg-background/10 border-2 border-background/20 rounded-lg">
           <p className="text-xs text-background/85 leading-relaxed text-center md:text-left">
-            <strong className="text-background font-bold">Važna Napomena:</strong> HRSportPortal je informativni portal
+            <strong className="text-background font-bold">Važna Napomena:</strong> SportPortalHR je informativni portal
             koji pruža recenzije i usporedbe sportskih kladionica. Svi sadržaji služe isključivo u informativne svrhe.
             Klađenje može biti opasno i izazvati ovisnost. Kladite se odgovorno i samo ako ste punoljetni (18+).
             Koristite isključivo licencirane kladionice koje posluju u skladu s hrvatskim zakonodavstvom. Portal ne
@@ -127,7 +128,7 @@ export function Footer() {
 
         <div className="border-t-2 border-background/20 pt-6 text-center">
           <p className="text-sm text-background/80">
-            {new Date().getFullYear()} <span className="font-bold text-accent">HRSportPortal.com</span> - Sva prava
+            {new Date().getFullYear()} <span className="font-bold text-accent">SportPortalHR.com</span> - Sva prava
             pridržana.
           </p>
         </div>

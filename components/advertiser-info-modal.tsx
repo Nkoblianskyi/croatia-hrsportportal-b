@@ -32,7 +32,7 @@ export function AdvertiserInfoModal({ isOpen, onClose }: AdvertiserInfoModalProp
               <h3 className="font-display font-bold text-xl text-gray-900">Važna Napomena</h3>
             </div>
             <p className="text-base text-gray-700 leading-relaxed">
-              <strong className="text-primary">HRSportPortal.com</strong> je neovisna sportska informativna platforma.{" "}
+              <strong className="text-primary">sportportalhr.com</strong> je neovisna sportska informativna platforma.{" "}
               <strong className="text-gray-900">Mi ne nudimo usluge klađenja.</strong> Svi sportski klubovi i kladionice
               navedeni na ovoj stranici su službeno registrirane institucije. Ova stranica može sadržavati affiliate
               linkove i možemo primiti provizije kada posjetite partnere putem naših poveznica.
@@ -50,7 +50,7 @@ export function AdvertiserInfoModal({ isOpen, onClose }: AdvertiserInfoModalProp
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
                 <p className="text-base text-gray-700 leading-relaxed">
-                  HRSportPortal.com je besplatna informativna usluga za praćenje sportskih vijesti i klađenja. Primamo
+                  SportPortalHR.com je besplatna informativna usluga za praćenje sportskih vijesti i klađenja. Primamo
                   naknade od istaknutih brandova, što može utjecati na njihov položaj na listi.
                 </p>
               </div>
@@ -104,7 +104,7 @@ export function AdvertiserInfoModal({ isOpen, onClose }: AdvertiserInfoModalProp
 
           <div className="bg-gradient-to-r from-gray-50 to-gray-100 border-t-2 border-gray-200 p-5 rounded-xl mt-6">
             <p className="text-sm text-gray-600 text-center font-semibold">
-              © 2025 HRSportPortal.com - Sva prava pridržana
+              © 2025 SportPortalHR.com - Sva prava pridržana
             </p>
           </div>
         </div>

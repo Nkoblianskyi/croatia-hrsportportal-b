@@ -68,7 +68,7 @@ export function TopOffersModal({ sites }: TopOffersModalProps) {
             </div>
 
             <h2 className="text-2xl font-display font-extrabold text-white mb-2">Najbolja Kladionica</h2>
-            <p className="text-white/90 text-sm font-medium">Preporučeno od HRSportPortal stručnjaka</p>
+            <p className="text-white/90 text-sm font-medium">Preporučeno od SportPortalHR stručnjaka</p>
           </div>
         </div>
 

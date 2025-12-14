@@ -31,7 +31,7 @@ export default function AboutPage() {
                 <h2 className="font-display text-3xl font-bold text-foreground">Naša Misija</h2>
               </div>
               <p className="text-foreground/80 leading-relaxed mb-4 text-lg">
-                HRSportPortal osnovan je s jasnom vizijom: pružiti hrvatskim ljubiteljima sportskog klađenja
+                SportPortalHR osnovan je s jasnom vizijom: pružiti hrvatskim ljubiteljima sportskog klađenja
                 najkvalitetnije, najdetaljnije i najtočnije informacije o svim aspektima klađenja.
               </p>
               <p className="text-foreground/80 leading-relaxed text-lg">
@@ -114,7 +114,7 @@ export default function AboutPage() {
                 <h2 className="font-display text-3xl font-bold text-foreground">Naša Metodologija</h2>
               </div>
               <p className="text-foreground/80 leading-relaxed mb-6 text-lg">
-                Svaka recenzija na HRSportPortalu rezultat je sveobuhvatnog procesa testiranja koji uključuje:
+                Svaka recenzija na SportPortalHR-u rezultat je sveobuhvatnog procesa testiranja koji uključuje:
               </p>
 
               <div className="grid md:grid-cols-3 gap-5">
@@ -171,7 +171,7 @@ export default function AboutPage() {
             <section className="bg-gradient-to-br from-primary via-primary/95 to-accent text-primary-foreground p-8 md:p-10 rounded-xl shadow-lg">
               <h2 className="font-display text-3xl font-bold mb-4">Naš Tim Stručnjaka</h2>
               <p className="text-primary-foreground/95 leading-relaxed text-lg">
-                HRSportPortal vodi tim posvećenih stručnjaka s dugogodišnjim iskustvom u industriji sportskog klađenja.
+                SportPortalHR vodi tim posvećenih stručnjaka s dugogodišnjim iskustvom u industriji sportskog klađenja.
                 Kombiniramo detaljno poznavanje hrvatskog tržišta s međunarodnim standardima kako bismo vam pružili
                 najpouzdanije informacije i preporuke za uspješno i sigurno klađenje.
               </p>
@@ -186,10 +186,10 @@ export default function AboutPage() {
                 <p className="text-foreground/80 leading-relaxed">
                   Email:{" "}
                   <a
-                    href="mailto:info@hrsportportal.com"
+                    href="mailto:info@sportportalhr.com"
                     className="text-primary font-bold underline underline-offset-4 hover:text-primary/80 transition-colors"
                   >
-                    info@hrsportportal.com
+                    info@sportportalhr.com
                   </a>
                 </p>
                 <p className="text-accent font-bold text-sm">Odgovaramo u roku od 24 sata</p>

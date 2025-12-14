@@ -38,7 +38,7 @@ export function CookieBanner() {
             <div className="flex-1">
               <h3 className="text-xl font-display font-bold text-gray-900 mb-2">Kolačići i Privatnost</h3>
               <p className="text-sm text-gray-600 leading-relaxed">
-                HRSportPortal koristi kolačiće za poboljšanje korisničkog iskustva. Prihvaćanjem pristajete na našu{" "}
+                SportPortalHR koristi kolačiće za poboljšanje korisničkog iskustva. Prihvaćanjem pristajete na našu{" "}
                 <Link href="/cookie-policy" className="text-primary font-semibold hover:underline">
                   politiku kolačića
                 </Link>{" "}

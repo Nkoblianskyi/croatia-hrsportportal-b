@@ -41,7 +41,7 @@ export default function PrivacyPolicyPage() {
                 <div>
                   <h2 className="text-2xl font-display font-bold text-foreground mb-3">Naša Obveza Prema Vama</h2>
                   <p className="text-foreground/80 leading-relaxed">
-                    HRSportPortal potpuno je posvećen zaštiti vaše privatnosti i osobnih podataka. Ovaj dokument
+                    SportPortalHR potpuno je posvećen zaštiti vaše privatnosti i osobnih podataka. Ovaj dokument
                     transparentno objašnjava način na koji prikupljamo, obrađujemo, koristimo i štitimo vaše podatke
                     tijekom korištenja našeg portala. Vaša privatnost je naš prioritet.
                   </p>
@@ -55,7 +55,7 @@ export default function PrivacyPolicyPage() {
                 Vrste Podataka Koje Prikupljamo
               </h2>
               <p className="text-foreground/80 leading-relaxed mb-6">
-                HRSportPortal može prikupljati sljedeće kategorije podataka:
+                SportPortalHR može prikupljati sljedeće kategorije podataka:
               </p>
 
               <div className="grid md:grid-cols-2 gap-5">
@@ -229,7 +229,7 @@ export default function PrivacyPolicyPage() {
                 <div>
                   <h3 className="text-lg font-display font-bold text-foreground mb-2">Korištenje Kolačića</h3>
                   <p className="text-foreground/80 text-sm leading-relaxed">
-                    HRSportPortal koristi kolačiće za poboljšanje korisničkog iskustva. Detaljne informacije o vrstama
+                    SportPortalHR koristi kolačiće za poboljšanje korisničkog iskustva. Detaljne informacije o vrstama
                     kolačića i njihovoj svrsi pronađite u našoj{" "}
                     <a
                       href="/cookie-policy"
@@ -253,10 +253,10 @@ export default function PrivacyPolicyPage() {
                     slobodno nas kontaktirajte:
                   </p>
                   <a
-                    href="mailto:info@hrsportportal.com"
+                    href="mailto:info@sportportalhr.com"
                     className="text-accent-foreground font-bold underline underline-offset-4 hover:text-accent transition-colors text-lg"
                   >
-                    info@hrsportportal.com
+                    info@sportportalhr.com
                   </a>
                   <p className="text-primary-foreground/90 text-sm mt-3">
                     ⚡ Odgovaramo na sve upite u roku od 48 sati

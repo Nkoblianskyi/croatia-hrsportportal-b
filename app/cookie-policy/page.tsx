@@ -39,10 +39,10 @@ export default function CookiePolicyPage() {
 
             <section>
               <h2 className="text-2xl font-display font-bold text-foreground mb-6 pb-2 border-b-2 border-border">
-                Kako HRSportPortal Koristi Kolačiće
+                Kako SportPortalHR Koristi Kolačiće
               </h2>
               <p className="text-foreground/80 leading-relaxed mb-5">
-                HRSportPortal implementira kolačiće kako bi vam pružio najbolje moguće iskustvo:
+                SportPortalHR implementira kolačiće kako bi vam pružio najbolje moguće iskustvo:
               </p>
               <ul className="space-y-3 text-foreground/80">
                 <li className="flex gap-3">
@@ -152,10 +152,10 @@ export default function CookiePolicyPage() {
                 Imate pitanja o našoj politici kolačića? Slobodno nas kontaktirajte:
               </p>
               <a
-                href="mailto:info@hrsportportal.com"
+                href="mailto:info@sportportalhr.com"
                 className="text-accent-foreground font-bold underline underline-offset-4 hover:text-accent transition-colors text-lg"
               >
-                info@hrsportportal.com
+                info@sportportalhr.com
               </a>
             </section>
           </div>
