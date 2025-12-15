@@ -12,8 +12,9 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="flex items-center group">
             <div className="text-xl md:text-3xl font-display font-bold text-foreground tracking-tight">
-              HR<span className="text-primary">Sport</span>
+              <span className="text-primary">Sport</span>
               <span className="text-accent">Portal</span>
+              HR
             </div>
           </Link>
 
